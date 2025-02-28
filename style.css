@@ -1,10 +1,55 @@
-body{
+.bydh{
     background-image: url('../my-first-project/images/restaurant.jpg');
     background-size: cover;
     background-color: #352323;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
     background-blend-mode: multiply;
+}
+/* This Changes the About page Sector*/
+.bydhA{
+   /* background-image: url('../my-first-project/images/parking.jpg');*/
+    background-size: cover;
+    background-color: #352323;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   /* background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    background-repeat: no-repeat;
+}
+/* This Changes the contact page Sector*/
+.bydhc{
+   /* background-image: url('../my-first-project/images/parking.jpg');*/
+   background-size: cover;
+   background-color: #352323;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+   background-repeat: no-repeat;
+}  
+/* This Changes the booking page Sector*/
+.bydhb{
+    /* background-image: url('../my-first-project/images/parking.jpg');*/
+   background-size: cover;
+   background-color: #352323;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+   background-repeat: no-repeat;
+}
+/* This Changes the room page Sector*/
+.bydhr{
+    /* background-image: url('../my-first-project/images/parking.jpg');*/
+   background-size: cover;
+   background-color: #352323;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+   background-repeat: no-repeat;
+}
+/* This Changes the dining page Sector*/
+.bydhd{
+    /* background-image: url('../my-first-project/images/parking.jpg');*/
+   background-size: cover;
+   background-color: #352323;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+   background-repeat: no-repeat;
 }
 .intro{
  text-align: center;
@@ -56,7 +101,91 @@ nav .current{
     padding: 64px 64px;;
 }
 p{
-    color: aqua;
+    color:white;
     display: inline-flex;
     text-align: center;
+    padding-left: 70px;
+}
+.History{
+    color: whitesmoke;
+}
+.btn{
+    display: inline-block; /* Makes it behave like a button */
+    color: aqua; /* Button text color */
+    padding: 10px 20px; /* Padding inside the button */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* Remove default border */
+    font-size: 18px; /* Adjust font size */
+    cursor: pointer; /* Change cursor on hover */
+    margin-top: 20px; /* Add some space above the button */
+    text-align: center;/*Alins the button to the centre*/
+}
+.btn-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+.btn:hover {
+    background-color: #c47623; /* Darker background on hover */
+}
+.hds{
+    color: aqua;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.photo-gallery {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    justify-content: center; /* Center images horizontally */
+    padding: 20px;
+}
+
+.gallery {
+    width: 300px; /* Adjust image width */
+    margin: 10px;
+    overflow: hidden; /* Prevent images from overflowing their container */
+    border-radius: 5px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+}
+
+.gallery img {
+    width: 100%; /* Make images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below images */
+    transition: transform 0.3s ease-in-out; /* Add smooth transition on hover */
+    width: 300px;
+    margin: 10px;
+}
+
+.gallery img:hover {
+    transform: scale(1.1); /* Zoom in on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .gallery-item {
+        width: 100%; /* Make images full width on smaller screens */
+    }
+}
+.cbtn{
+    display: inline-block; /* Makes it behave like a button */
+    color: aqua; /* Button text color */
+    padding: 10px 20px; /* Padding inside the button */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* Remove default border */
+    font-size: 18px; /* Adjust font size */
+    cursor: pointer; /* Change cursor on hover */
+    margin-top: 20px; /* Add some space above the button */
+    text-align: center;/*Alins the button to the centre*/
+}
+.cbtn-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+.cbtn:hover {
+    background-color: #c47623; /* Darker background on hover */
 }
