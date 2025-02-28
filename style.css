@@ -1,13 +1,21 @@
 body{
-background-color: #352323;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('../my-first-project/images/restaurant.jpg');
+    background-size: cover;
+    background-color: #352323;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    background-blend-mode: multiply;
 }
-h1{
+.intro{
  text-align: center;
+ padding-top: 170px;
+ color: aliceblue;
+ font-size: 60px;
 }
 nav {
     background-color: #c47623; /* Background color of the navbar */
     overflow: hidden; /* Prevents overflow issues */
+    padding: 20px 20px;
 }
 
 nav ul {
@@ -20,6 +28,7 @@ nav ul {
 
 nav li {
     display: inline-block; /* Display links horizontally */
+    padding-top: 100px;
 }
 
 nav a {
@@ -36,13 +45,18 @@ nav a:hover {
 nav h1 {
     float: left;
     padding-top: 15px;
+    font-size: 50px;
+    color: #352323;
 }
 nav .current{
     color: bisque;
 }
-.paragraph1{
-    text-align: center;
+.head{
+    color: #c47623;
+    padding: 64px 64px;;
 }
-#showcase{
-    background: url();
+p{
+    color: aqua;
+    display: inline-flex;
+    text-align: center;
 }
