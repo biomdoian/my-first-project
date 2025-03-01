@@ -130,7 +130,7 @@ p{
     background-color: #c47623; /* Darker background on hover */
 }
 .hds{
-    color: aqua;
+    color: #c47623;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -226,3 +226,46 @@ p{
       .box{
         color: #c47623;
       }
+      /*Reservation form in the Dining Page*/
+      body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 1px;
+      }
+    .containr{
+        background-color: #c47623;
+        margin: 200px;
+        box-shadow:rgba(0, 0, 0, .1) ;
+        display: grid;
+        grid-template-columns: 40% 60%; 
+    }
+    .containr-time{
+       background-color: #854604; 
+       padding: 50px;
+       outline: 3px;
+       outline-offset: -30px;
+       text-align: center;
+    }
+    .heading{
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+    .heading-dys{
+        font-size: 30px;
+    }
+.btnsb{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transition:all .3s;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+}
+.btnsb:hover{
+    background-color: #0aebf7;
+}
