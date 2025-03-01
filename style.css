@@ -189,3 +189,40 @@ p{
 .cbtn:hover {
     background-color: #c47623; /* Darker background on hover */
 }
+      /*contact form*/
+     .btns{
+        background-color: #352323; 
+        color: aqua;
+        font-size: 25px;
+     }
+     .btns:hover{
+        background-color: #c47623;
+      .contact-info .cntn{
+        margin-bottom: 80px;
+      }
+    }
+      .contact-info label{
+        display: block;
+        margin-bottom: 5px;
+      }
+      .contact-info input, 
+      .contact-info textarea{
+        width: 80%;
+        padding: 10px;
+        border: 3px#c47623 ;
+      }
+      .contact-info textarea{
+        height: 150px;
+      }
+      .contact-info input :focus, 
+      .contact-info textarea :focus{
+        outline: none;
+        border-color: #01c7f3;
+      }
+      .cnu {
+        color: #c47623;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .box{
+        color: #c47623;
+      }
